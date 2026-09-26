@@ -1,0 +1,4 @@
+[tools]
+codex = "latest"
+gh = "latest"
+node = "latest"

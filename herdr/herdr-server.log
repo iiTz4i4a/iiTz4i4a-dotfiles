@@ -1,0 +1,35 @@
+2026-09-26T08:44:10.237526Z  INFO herdr::api::server: api server listening path=/home/cickalenko/.config/herdr/herdr.sock
+2026-09-26T08:44:10.238787Z  INFO herdr::persist::io: session file is missing event="persist.restore" subsystem="persist" outcome="missing" path=/home/cickalenko/.config/herdr/session.json
+2026-09-26T08:44:10.238978Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-09-26T08:44:10.283623Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T08:44:10.284431Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=40 cols=120 scrollback_limit_bytes=10000000
+2026-09-26T08:44:10.286620Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=9797
+2026-09-26T08:44:10.287285Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w1" pane_id=1
+2026-09-26T08:44:10.287289Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-09-26T08:44:10.287292Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-26T08:44:10.287293Z  INFO herdr::server::headless::bootstrap: created startup workspace cwd=/home/cickalenko
+2026-09-26T08:44:10.287326Z  INFO herdr::server::headless: client protocol socket listening path=/home/cickalenko/.config/herdr/herdr-client.sock
+2026-09-26T08:44:10.287340Z  INFO herdr::server::headless::bootstrap: herdr server started api_socket=/home/cickalenko/.config/herdr/herdr.sock client_socket=/home/cickalenko/.config/herdr/herdr-client.sock
+2026-09-26T08:44:10.287392Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=9783
+2026-09-26T08:44:10.574265Z  INFO herdr::server::headless: client connected client_id=2 cols=149 rows=42 cell_width_px=14 cell_height_px=33 surface_active=true render_encoding=SemanticFrame
+2026-09-26T08:44:15.288938Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/cickalenko/.config/herdr/session.json workspaces=1
+2026-09-26T08:44:29.124380Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=42 cols=149 scrollback_limit_bytes=10000000
+2026-09-26T08:44:29.127433Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=10164
+2026-09-26T08:44:29.127740Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w2" pane_id=2
+2026-09-26T08:44:29.127748Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-09-26T08:44:29.127754Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-09-26T08:44:30.687357Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=42 cols=149 scrollback_limit_bytes=10000000
+2026-09-26T08:44:30.690551Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=10169
+2026-09-26T08:44:30.690847Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t2"
+2026-09-26T08:44:35.697883Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/cickalenko/.config/herdr/session.json workspaces=2
+2026-09-26T08:44:43.686767Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=3 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-09-26T08:44:43.697448Z  INFO herdr::pane: pane session terminated pane=3 pid=10169 signal=Hangup
+2026-09-26T08:44:43.697993Z  WARN herdr::app::actions: PaneDied for unknown pane pane=3
+2026-09-26T08:44:48.699097Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/cickalenko/.config/herdr/session.json workspaces=2
+2026-09-26T08:45:03.695926Z  INFO herdr::logging: workspace closed event="workspace.close" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-09-26T08:45:03.699393Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-09-26T08:45:03.708230Z  INFO herdr::pane: pane session terminated pane=2 pid=10164 signal=Hangup
+2026-09-26T08:45:03.708690Z  WARN herdr::app::actions: PaneDied for unknown pane pane=2
+2026-09-26T08:45:06.834612Z  INFO herdr::server::headless: client detached client_id=2
+2026-09-26T08:45:08.710638Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/cickalenko/.config/herdr/session.json workspaces=1
+2026-09-26T09:19:42.756139Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"

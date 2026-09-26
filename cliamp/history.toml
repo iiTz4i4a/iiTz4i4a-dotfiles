@@ -1,0 +1,21 @@
+[[entry]]
+played_at = "2026-09-26T09:25:37Z"
+path = "https://play.radioking.io/nordic-chillout-radio/736489"
+title = "Nordic Chillout Radio [64k] · Latvia"
+genre = "chillout,downtempo,electronic"
+
+[[entry]]
+played_at = "2026-09-26T08:58:54Z"
+path = "http://lr1mp1.latvijasradio.lv:8012/;"
+title = "Latvijas Radio 1 [128k] · Latvia"
+genre = "latvijas radio,news,public radio,talk"
+
+[[entry]]
+played_at = "2026-09-26T08:58:39Z"
+path = "https://stream.radioskonto.lv:8443/stereo"
+title = "Skonto [128k] · Latvia"
+
+[[entry]]
+played_at = "2026-09-26T08:57:12Z"
+path = "https://radio.cliamp.stream/lofi/stream"
+title = "Lofi"

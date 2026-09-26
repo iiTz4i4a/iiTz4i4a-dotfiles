@@ -1,0 +1,4 @@
+2026-09-26T08:44:10.337733Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=9782
+2026-09-26T08:44:10.337800Z  INFO herdr::client: connecting to server path=/home/cickalenko/.config/herdr/herdr-client.sock
+2026-09-26T08:44:10.574219Z  INFO herdr::client::handshake: endpoint handshake succeeded generation=1 server_version=0.9.1
+2026-09-26T08:45:06.837889Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=9782
